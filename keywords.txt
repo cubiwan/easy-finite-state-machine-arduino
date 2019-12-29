@@ -1,0 +1,30 @@
+#######################################
+# Syntax Coloring Map Debug
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+START_TRANSITIONS	KEYWORD2
+END_TRANSITIONS	KEYWORD2
+TRANSITION	KEYWORD2
+START_EXECUTIONS	KEYWORD2
+END_EXECUTIONS	KEYWORD2
+EXECUTION	KEYWORD2
+EVENTS	KEYWORD2
+STATES	KEYWORD2
+INIT	KEYWORD2
+isState	KEYWORD2
+changeState KEYWORD2
+sfsmEvent KEYWORD2
+sfsmExecute KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+ANY_STATE LITERAL1
+ANY_EVENT LITERAL1
