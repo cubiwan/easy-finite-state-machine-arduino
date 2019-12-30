@@ -22,8 +22,8 @@ void show(){
 START_TRANSITIONS
 Serial.print("event: ");
 TRANSITION(next,start,step1,Serial.println("next")) //next start -> step1
-TRANSITION(next,step1,step2,Serial.println("next")) //next start -> step1
-TRANSITION(next,step2,finish,Serial.println("next")) //next start -> step1
+TRANSITION(next,step1,step2,Serial.println("next")) //next step1 -> step2
+TRANSITION(next,step2,finish,Serial.println("next")) //next step2 -> finish
 TRANSITION(back,step2,step1,Serial.println("back")) //back step2 -> step1
 TRANSITION(restart,ANY_STATE,start,Serial.println("restart")) //restart any state -> start
 TRANSITION(ANY_EVENT,ANY_STATE,ANY_STATE,Serial.println("FAIL!!!")) //in any other case
