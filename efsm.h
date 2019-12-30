@@ -54,8 +54,8 @@
 			return efsmEvent(E); \
 		}\
 
-	#define CONDITIONAL(S,M,E) \
-		if(efsmState == S && M){ \
+	#define CONDITIONAL(S,C,E) \
+		if(efsmState == S && C){ \
 			return efsmEvent(E); \
 		}\
 
